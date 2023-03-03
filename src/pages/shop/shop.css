@@ -1,7 +1,11 @@
 .shopTitle {
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+
     text-align: center;
     font-size: 40px;
+    color: rgb(30, 30, 88);
+
   }
   .products {
     width: 100%;
@@ -13,9 +17,9 @@
   
   .product {
     border-radius: 15px;
-    width: 300px;
-    height: 350px;
-    margin: 100px;
+    width: 400px;
+    height: 400px;
+    margin: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,9 +29,15 @@
   .product img {
     width: 400px;
   }
+
+  .product button {
+    font-size: 20px;
+  }
   
   .product .description {
     text-align: center;
+    font-size: 20px;
+    color: rgb(30, 30, 88);
   }
   
   .product:hover {
@@ -38,12 +48,13 @@
   .addToCartBttn {
     background-color: transparent;
     border: 2px solid rgb(30, 30, 88);
-    min-width: 100px;
+    min-width: 150px;
+    min-height: 50px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border-radius: 15px;
+    border-radius: 10px;
   }
   
   .addToCartBttn:hover {

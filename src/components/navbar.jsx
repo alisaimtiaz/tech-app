@@ -6,6 +6,7 @@ import { ShoppingCart } from 'phosphor-react';
 export const Navbar = () => {
   return (
     <div className='navbar'>
+      <h1>ShopTek</h1>
         <div className="links">
             <Link to='/'> Shop </Link>
             <Link to='/cart'>

@@ -6,6 +6,11 @@
     justify-content: flex-end;
     align-items: center;
   }
+
+  .navbar h1 {
+    color: white;
+    margin-right: 163rem;
+  }
   
   .links {
     margin-right: 50px;
@@ -17,5 +22,6 @@
     text-decoration: none;
     color: rgba(255, 255, 255, 0.858);
     margin-left: 55px;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
   }
